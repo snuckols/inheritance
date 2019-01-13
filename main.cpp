@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
+	cout << "We are creating an employee" << endl;
 	CommissionEmployee employee(
 		"Sue", "Jones", "222-22-2222", 100000, .06);
 
