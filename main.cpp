@@ -26,4 +26,4 @@ int main()
 
 	cout << "\n\nEmployee's earnings: $" << employee.earnings() << endl;
 }
-// This is a comment
+
