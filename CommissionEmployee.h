@@ -5,7 +5,7 @@ using namespace std;
 
 class CommissionEmployee
 {
-private:
+protected:
 	string firstName;
 	string lastName;
 	string socialSecurityNumber;

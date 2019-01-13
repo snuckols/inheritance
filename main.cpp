@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
+	int x = 0;
 	cout << "We are creating an employee" << endl;
 	CommissionEmployee employee(
 		"Sue", "Jones", "222-22-2222", 100000, .06);
@@ -21,10 +22,16 @@ int main()
 	employee.setGrossSales( 8000 );
 	employee.setCommissionRate( .1 );
 
-	cout << "\n Updated employee infromation output by print function: \n"
+	cout << "\nUpdated employee infromation output by print function: \n"
 		 << endl;
 	employee.print();
 
 	cout << "\n\nEmployee's earnings: $" << employee.earnings() << endl;
+
+	cout << "\n\nPress any key to exit." << endl;
+
+	cin >> x;
+
+	return 0;
 }
 

@@ -13,7 +13,7 @@ CommissionEmployee::CommissionEmployee(
 	setCommissionRate( rate );
 }
 
-void CommissionEmployee::setFirstName( const string &first );
+void CommissionEmployee::setFirstName( const string &first )
 {
 	firstName = first;
 }
@@ -33,12 +33,12 @@ string CommissionEmployee::getLastName() const
 	return lastName;
 }
 
-void CommissionEmployee::setSocialSecurityNumber( const string &ssn ) const
+void CommissionEmployee::setSocialSecurityNumber( const string &ssn )
 {
 	socialSecurityNumber = ssn;
 }
 
-string CommissionEmployee::getSocialSecurtyNumber() const
+string CommissionEmployee::getSocialSecurityNumber() const
 {
 	return socialSecurityNumber;
 }
